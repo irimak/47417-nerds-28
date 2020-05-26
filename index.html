@@ -7,7 +7,7 @@
 	<body>
 	  <header>
 		  <nav>
-		    <a>
+		    <a >
 		      <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии Nёrds">
 		    </a>
 				<ul>
@@ -19,7 +19,7 @@
 				<a href="cart.html">Корзина</a>
 		  </nav>
 		  <section>
-		  	<h2>Принципы студии</h2>
+		  	<h2 class="visually-hidden">Принципы студии</h2>
 	  		<ul>
 	  			<li>
 	  				<p>Долго, дорого, скрупулезно.</p>
@@ -40,9 +40,9 @@
 		  </section>
 		</header>
 	  <main>
-	  	<h1>Дизайн-студия Нёрдс</h1>
+	  	<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
 			<section>
-		  	<h2>Услуги</h1>
+		  	<h2 class="visually-hidden">Услуги</h1>
 				<ul>
 			  	<li>
 						<h3>Веб-сайты</h3>
@@ -62,7 +62,7 @@
 				</ul>
 			</section>
 			<article>
-				<h2>Описание студии</h2>
+				<h2 class="visually-hidden">Описание студии</h2>
 				<section>
 					<p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
 					<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет  превыше креатива. Работаем не покладая рук, как роботы.</p>
@@ -90,7 +90,7 @@
 				</section>
 			</article>
 			<section>
-				<h2>Компании, с которыми мы работали</h2>
+				<h2 class="visually-hidden">Компании, с которыми мы работали</h2>
 				<ul>
 					<li>
 						<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.png"
@@ -109,7 +109,7 @@
 				</ul>
 			</section>
 			<section>
-				<h2>Наши контакты</h2>
+				<h2 class="visually-hidden">Наши контакты</h2>
 				<div>
 					<p>Nёrds design studio</p>
 					<p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -122,13 +122,13 @@
 	  	<div>
 				<ul>
 			  	<li>
-			  		<a href="#">Вконтакте</a>
+			  		<a href="#"><span class="visually-hidden">Вконтакте</span></a>
 			  	</li>
 			  	<li>
-			  		<a href="#">Фейсбук</a>
+			  		<a href="#"><span class="visually-hidden">Фейсбук</span></a>
 			  	</li>
 			  	<li>
-			  		<a href="#">Инстаграм</a>
+			  		<a href="#"><span class="visually-hidden">Инстаграм</span></a>
 			  	</li>
 		 		</ul>
 	  	</div>
@@ -137,5 +137,24 @@
 				<p>Скидка 10% для друзей из социальных сетей.</p>
 			</div>
 		</footer>
+		<section>
+			<h2>Напишите нам</h2>
+			<form action="https://echo.htmlacademy.ru" method="post">
+				<p>
+					<label for="user-name">Ваше имя:</label>
+					<input id="user-name" type="text" name="user" placeholder="Имя Фамилия" required>
+				</p>
+				<p>
+					<label for="user-email">Ваш email:</label>
+					<input id="user-email" type="text" name="email" placeholder="email@example.com" required>
+				</p>
+				<p>
+					<label for="user-message">Текст письма:</label>
+					<textarea id="user-message" name="message" placeholder="В свободной форме" required></textarea>
+				</p>
+				<button type="submit">Отправить</button>
+			</form>
+			<button type="button">Закрыть</button>
+		</section>
 	</body>
 </html>

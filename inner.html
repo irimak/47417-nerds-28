@@ -23,8 +23,52 @@
 		<main>
 			<section>
 	      <h2>Фильтр товаров</h2>
-	      <!--Здесь будет форма фильтра-->
-      </section>
+	      <form action="https://echo.htmlacademy.ru" method="get">
+	      	<fieldset>
+      			<legend>Сетка:</legend>
+      			<ul>
+      				<li>
+      					<input type="radio" name="net-group" value="adaptive" id="filter-adaptive" checked>
+      					<label for="filter-adaptive">Адаптивная</label>
+      				</li>
+      				<li>
+      					<input type="radio" name="net-group" value="fixed" id="filter-fixed">
+      					<label for="filter-fixed">Фиксированная</label>
+      				</li>
+      				<li>
+      					<input type="radio" name="net-group" value="rubber" id="filter-rubber">
+								<label for="filter-rubber">Резиновая</label>
+      				</li>
+      			</ul>
+      		</fieldset>
+      		<fieldset>
+      			<legend>Особенности:</legend>
+      			<ul>
+      				<li>
+      					<input type="checkbox" name="slider" id="filter-slider" checked>
+      					<label for="filter-slider">Слайдер</label>
+      				</li>
+							<li>
+								<input type="checkbox" name="advantages" id="filter-advantages">
+      					<label for="filter-advantages">Блок преимуществ</label>
+							</li>
+							<li>
+								<input type="checkbox" name="news" id="filter-news" checked>
+      					<label for="filter-news">Новости</label>
+							</li>
+							<li>
+								<input type="checkbox" name="gallery" id="filter-gallery">
+      					<label for="filter-gallery">Галерея</label>
+							</li>
+      				<li>
+      					<input type="checkbox" name="cart" id="filter-cart">
+      					<label for="filter-cart">Корзина</label>
+      				</li>				
+      			</ul>
+      		</fieldset>
+      		<button type="submit">Показать</button>
+      	</form>
+	    </section>
 		  <section>
 	    	<h2>Список шаблонов сайтов</h2>
 	      <ul>
@@ -145,5 +189,24 @@
 				<p>Скидка 10% для друзей из социальных сетей.</p>
 			</div>
 		</footer>
+		<section>
+			<h2>Напишите нам</h2>
+			<form action="https://echo.htmlacademy.ru" method="post">
+				<p>
+					<label for="user-name">Ваше имя:</label>
+					<input id="user-name" type="text" name="user" placeholder="Имя Фамилия" required>
+				</p>
+				<p>
+					<label for="user-email">Ваш email:</label>
+					<input id="user-email" type="text" name="email" placeholder="email@example.com" required>
+				</p>
+				<p>
+					<label for="user-message">Текст письма:</label>
+					<textarea id="user-message" name="message" placeholder="В свободной форме" required></textarea>
+				</p>
+				<button type="submit">Отправить</button>
+			</form>
+			<button type="button">Закрыть</button>
+		</section>
 	</body>
 </html>

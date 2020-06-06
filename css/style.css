@@ -1,0 +1,453 @@
+/*Variables*/
+
+:root {
+	--basic-black: #000000;
+	--basic-transp-black: rgba(0, 0, 0, 0.3);
+	--basic-neutral: #283136;
+	--basic-light-gray: #444444;
+	--basic-zircon: rgba(68, 68, 68, 0.5);
+	--basic-neutral-gray: #A6A6A6;
+	--basic-gray: #E1E1E1;
+	--basic-silver: #666666;
+	--basic-extra-gray: #EEEEEE;
+	--basic-gainsboro: #D7DCDE;
+	--basic-gray-gray: #DFDFDF;
+	--basic-monsoon: #B4B9BB;
+	--basic-dark-gray: #D5D5D5;
+	--basic-dark: #4D4D4D;
+	--basic-dark-l: rgba(77, 77, 77, 0.4);
+	--basic-pink: #FB565A;
+	--basic-red: #E74246;
+	--basic-extra-red: #D7373B;
+	--basic-white: #FFFFFF;
+  --basic-transp-white: rgba(255, 255, 255, 0.3);
+	--basic-light-green: #00CA74;
+	--basic-green: #00BC6C;
+	--basic-dark-green: #00AA62;
+	--basic-light-yellow: #EFC84A;
+	--basic-yellow: #EAB534;
+	--basic-yellow: #E5A722;
+}
+
+/*Global*/
+
+body {
+	min-width: 1177px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: var(--basic-neutral);
+	background-color: var(--basic-white);
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.main-header {
+	background-color: var(--basic-extra-gray);
+}
+
+/*Main-navigation*/
+
+.main-navigation {
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 500;
+	color: var(--basic-black);
+	text-transform: uppercase;
+}
+
+.site-navigation {
+	list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+	color: var(--basic-black);
+}
+
+.site-navigation a:hover,
+.user-navigation a:hover {
+	color: var(--basic-pink);
+}
+
+.site-navigation a:focus,
+.user-navigation a:focus {
+	color: var(--basic-transp-black);
+}
+/*Заготовка для изменения цвета логотипа
+
+.main-navigation img:focus {
+}
+
+*/
+
+/*Слайдер*/
+
+.slider {
+	background-color: var(--basic-extra-gray);
+}
+
+.slider-list {
+	margin: 0;
+  padding: 0;
+	list-style: none;
+}
+.slider-heading {
+	font-size: 55px;
+	line-height: 55px;
+	font-weight: 500;
+}
+
+.button {
+
+	font-weight: 500;
+	line-height: 18px;
+	color: var(--basic-white);
+	background-color: var(--basic-pink);
+	text-transform: uppercase;
+  border-radius: 3px;
+  border: none;
+}
+
+.button:hover {
+	background-color: var(--basic-red);
+}
+
+.button:active {
+	color: var(--basic-transp-white);
+	background-color: var(--basic-extra-red);
+}
+
+/*Услуги*/
+
+.services-list {
+	list-style: none;
+	}
+
+.service-item h3 {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.button-apps {
+	background-color: var(--basic-light-green);
+}
+
+.button-apps:hover {
+	background-color: var(--basic-green);
+}
+
+.button-apps:active {
+	background-color: var(--basic-dark-green);
+}
+
+.button-presentations {
+	background-color: var(--basic-light-yellow);
+}
+
+.button-presentations:hover {
+	background-color: var(--basic-yellow);
+}
+
+.button-presentations:active {
+	background-color: var(--basic-yellow);
+}
+
+/*Описание студии*/
+
+.info-name {
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: 500;
+	color: var(--basic-black);
+}
+
+.info-list {
+	list-style: none;
+}
+
+.info-orders {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.features-head {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--basic-black);
+}
+
+.features-item {
+	font-size: 45px;
+	line-height: 64px;
+	font-weight: 700;
+	color: var(--basic-black);
+}
+
+.features-item sup {
+	font-size: 26px;
+	line-height: 40px;
+}
+
+/*Компании, с которыми мы работали*/
+
+.logo-list {
+	list-style: none;
+}
+
+.logo-item-htmlacademy a {
+	width: 199px;
+  height: 68px;
+}
+
+.logo-item-borodinski a{
+	width: 209px;
+  height: 90px;
+}
+
+.logo-item-pink a{
+	width: 185px;
+  height: 52px;
+}
+
+.logo-item-mishka a{
+	width: 173px;
+  height: 84px;
+}
+
+.logo-item img {
+	opacity: 0.2;
+}
+
+.logo-item img:hover {
+	opacity: 1;
+}
+
+.logo-item img:focus {
+	opacity: 0.1;
+}
+
+.logo-item a:focus {
+	opacity: 0.1;
+}
+
+/*Наши контакты*/
+
+.contacts {
+  color: var(--basic-silver);
+	background-color: var(--basic-white);
+}
+
+.contacts-container .contacts-head {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	color: var(--basic-black);
+	text-transform: uppercase;
+}
+
+
+/*Футер*/
+
+.footer-social ul {
+	list-style: none;
+}
+
+.footer-head {
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 700;
+	color: var(--basic-black);
+}
+
+.footer-desc {
+	line-height: 36px;
+	color: var(--basic-light-gray);
+}
+
+/*Стили для поп-апа "Напишите нам"*/
+
+.modal-write-us {
+	
+	background-color: var(--basic-white);
+}
+.modal-write-us h2 {
+	font-size: 45px;
+	line-height: 53px;
+	font-weight: 700;
+}
+
+.modal-write-us label {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 700;
+}
+
+.write-us-form input[type="text"],
+.write-us-form textarea {
+	font: inherit;
+	line-height: 18px;
+	color: var(--basic-zircon);
+	border: 2px solid var(--basic-gainsboro);
+	border-radius: 3px;
+	outline-style: none;
+}
+
+.write-us-form input:hover,
+.write-us-form textarea:hover {
+	color: var(--basic-zircon);
+	border: 2px solid var(--basic-monsoon);
+}
+
+.write-us-form input:focus,
+.write-us-form textarea:focus {
+	color: var(--basic-light-gray);
+	border: 2px solid #000000;
+}
+
+.write-us-form input:invalid,
+.write-us-form textarea:invalid {
+	color: var(--basic-red);
+	border: 2px solid var(--basic-red);
+}
+
+.button-write-us:active,
+.button-write-us:focus {
+	outline-style: none;
+}
+/*Страница каталога*/
+
+.page-title {
+	font-size: 55px;
+	line-height: 55px;
+	font-weight: 500;
+	color: var(--basic-black);
+	text-align: center;
+}
+
+
+/*Стили для фильтров*/
+
+.filter {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	color: var(--basic-black);
+}
+
+.filter legend {
+	text-transform: uppercase;
+}
+
+.filter ul {
+  list-style: none;
+}
+
+.filter-net li {
+	color: var(--basic-dark);
+}
+
+.filter label {
+	font-size: 16px;
+	line-height: 20px;
+  font-weight: 400;
+  color: var(--basic-neutral);
+}
+
+.filter-input-radio:hover {
+  color: var(--basic-dark-l);
+}
+
+.filter-input-radio:focus {
+  color: var(--basic-neutral);
+}
+
+.filter-input-radio:disabled {
+	opacity: 0.1;
+}
+
+
+.filter-input:disabled {
+	opacity: 0.3;
+}
+
+.filter label:hover {
+	color: var(--basic-neutral);
+}
+
+.filter-button {
+	line-height: 18px;
+	font-weight: 500;
+	color: var(--basic-black);
+	background-color: var(--basic-extra-gray);
+	border: 0;
+}
+
+.filter-button:hover {
+	background-color: var(--basic-gray-gray);
+}
+
+.filter-button:active {
+	color: var(--basic-transp-black);
+	background-color: var(--basic-dark-gray);
+}
+
+
+/*Стили для блока с шаблонами сайтов*/
+
+.catalog-list {
+	list-style: none;
+}
+
+catalog-img {
+  width: 358px;
+  height: 578px;
+}
+
+.catalog-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.catalog-name a {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	color: var(--basic-black);
+	text-transform: uppercase;
+}
+
+
+.catalog-name a:hover {
+	
+	color: var(--basic-pink);
+	
+}
+
+.catalog-name a:active {
+	color: var(--basic-transp-black);
+}
+
+.catalog-price p {
+	line-height: 18px;
+	color: var(--basic-silver);
+}
+
+
+/*Пагинация*/
+
+.pagination-list {
+	list-style: none;
+}

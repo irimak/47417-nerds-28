@@ -26,7 +26,7 @@
 	--basic-dark-green: #00AA62;
 	--basic-light-yellow: #EFC84A;
 	--basic-yellow: #EAB534;
-	--basic-yellow: #E5A722;
+	--basic-yellow-dark: #E5A722;
 }
 
 /*Global*/
@@ -162,7 +162,7 @@ img {
 }
 
 .button-presentations:active {
-	background-color: var(--basic-yellow);
+	background-color: var(--basic-yellow-dark);
 }
 
 /*Описание студии*/

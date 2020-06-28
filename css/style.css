@@ -196,12 +196,6 @@ a {
 	background-position: 0 0;
 }
 
-/*Заготовка для изменения цвета логотипа*/
-
-
-
-
-
 /*Слайдер*/
 
 .slider {
@@ -352,6 +346,7 @@ a {
 /*Услуги*/
 
 .services {
+	margin-top: 80px;
 	margin-bottom: 80px;
 }
 
@@ -361,14 +356,14 @@ a {
   column-gap: 40px;
 	margin: 0;
 	padding: 0;
-	margin-top: 80px;
+	
 	list-style: none;
 }
 
 .service-item {
 	width: 300px;
 	padding-top: 146px;
-	padding-bottom: -146px;
+	/*background-color: var(--basic-pink);*/
 }
 
 .img-web {
@@ -791,10 +786,12 @@ a {
 .modal-write-us {
 	display: none;
 	position: fixed;
-	bottom: 178px;
 	left: 50%;
+  top: 50%;
+  margin-left: -480px;
+  transform: translate(0, -50%);
+
 	z-index: 200;
-	margin-left: -480px;
 	width: 960px;
 	min-height: 590px;
 	padding-top: 63px;
@@ -1131,7 +1128,7 @@ a {
 }
 
 .switches-item-current {
-	margin-left: 25px;
+	margin-left: 24px;
 	margin-right: 18px;
 }
 

@@ -354,13 +354,14 @@ a {
 .services {
 	margin-top: 80px;
 	margin-bottom: 80px;
+
 }
 
 .services-list {
 	display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 40px;
-
+  
 	margin: 0;
 	padding: 0;
 	
@@ -862,11 +863,11 @@ a {
 	top: 50%;
 	left: 50%;
   z-index: 200;
-  transform: translate(0, -50%);
-
+  
 	display: none;
 	width: 960px;
 	min-height: 590px;
+	margin-top: -295px;
 	margin-left: -480px;
 	padding-top: 63px;
 	padding-right: 80px;

@@ -373,7 +373,7 @@ a {
 	position: relative;
 }
 
-.img-web:before {
+.img-web::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -388,7 +388,7 @@ a {
 	position: relative;
 }
 
-.img-apps:before {
+.img-apps::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -403,7 +403,7 @@ a {
 	position: relative;
 }
 
-.img-presentations:before {
+.img-presentations::before {
 	content: "";
 	position: absolute;
 	top: 0;

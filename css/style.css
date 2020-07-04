@@ -1085,14 +1085,10 @@ a {
   background-color: var(--basic-light-green);
 }
 
-.range-controls .toggle {
+.toggle {
 	position: absolute;
 	top: 30px;
-	left: 0;
-
-  width: 4px;
-  height: 4px;
-  padding: 0;
+	padding: 2px;
 
   background-color: var(--basic-siver-gray);
   border: 8px solid var(--basic-white);
